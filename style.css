@@ -1,12 +1,13 @@
 body {
     background-color: black;
     text-align: center;
-    
+    margin-top: 200px;
 }
 div {
     border: 2px solid white;
     align-items: center;
-    justify-content: center;
+    justify-content: center
+    ;
 }
 
 h1 {
