@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UI Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="logo"><h1>LOGO</h1>
+  </div>
+  <nav>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+    <button class="btn">Contact</button>
+  </nav>
+</div>
+
+<div class="hero">
+  <h1>Build Your Skills. Shape Your Future</h1>
+  <p>Helping student learn AI, coding, and real-world skills in a simple and practical way.</p>
+  <button class="btn">Start Learning</button>
+</div>
+
+<section class="services">
+  <h2>OUR SERVICES</h2>
+  <div class="service-boxes">
+    <div class="card">
+      <img src="data:image/png;base64,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" class="img">
+      <h3>AI Tools Learning</h3>
+    </div>
+    <div class="card">
+      <img src="data:image/png;base64,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" class="img">
+      <h3>AI Tools Learning</h3>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUNTYIVf_l19rlTfzNq0Am-quISpTZZQZ2Rg&s" class="img">
+      <h3>Web Development</h3>
+    </div>
+  </div>
+</section>
+
+<section class="two-col">
+  
+  <div class="left">
+    <div class="box">
+      <img src="#">
+    </div>
+    <div class="para">
+      <p>Stop Wasting time on random tutorials.
+        I breakdown complex topics into simple, practical steps so you can actually apply them.
+      </p>
+      <p>Start building skills that help you grow and earn.</p>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="text"></div>
+    <div class="small-box"></div>
+  </div>
+
+</section>
+
+<section class="about">
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>Hi, I'm Devika. I started My journey with zero skills and a lot of cofusion.</p>
+    <p>Through learning AI tools, coding, and self improvement, I began building real skills step by step.</p>
+    <p>Now I share everything I learn yo help students like you grow faster and smarter.</p>
+  </div>
+  <div class="map"></div>
+</section>
+
+<section class="contact">
+  <h2>Let's Connect</h2>
+  <input type="text" placeholder="Enter message">
+  <button class="btn">Send Message.</button>
+</section>
+
+</body>
+</html>

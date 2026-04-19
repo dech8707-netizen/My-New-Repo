@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: 2px solid #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  border-bottom: 2px solid #333;
+  background-color: white;
+}
+
+.logo {
+  font-weight: bold;
+  color: #4f46e5;
+}
+.navbar nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1e293b;
+}
+
+.btn {
+  padding: 8px 15px;
+  background: #4f46e5;
+  cursor: pointer;
+  color: whitw;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 2px solid #333;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.hero p {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.services {
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 2px solid #333;
+  background-color: #f8fafc;
+}
+
+.service-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.img {
+  width: 200px;
+  height: 120px;
+}
+
+.two-col {
+  display: flex;
+  border-bottom: 2px solid #333;
+}
+
+.left, .right {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.left .box {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #333;
+}
+
+
+.para p {
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.right {
+  justify-content: space-between;
+}
+
+.text p {
+  margin-bottom: 10px;
+}
+
+.small-box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+}
+
+.about {
+  display: flex;
+  padding: 30px;
+  border-bottom: 2px solid #333;
+}
+
+.about-text {
+  flex: 1;
+}
+.about h2 {
+  padding-bottom: 20px;
+}
+
+.map {
+  width: 200px;
+  height: 150px;
+  border: 2px solid #333;
+}
+.contact {
+  text-align: center;
+  padding: 40px;
+}
+
+.contact input {
+  padding: 8px;
+  border: 2px solid #333;
+  margin-right: 10px;
+}
